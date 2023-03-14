@@ -1,0 +1,8 @@
+.mainvideocontainer {
+  flex-grow: 1;
+  flex-basis: 80%;
+  background-image: url("../../resources/images/video.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
