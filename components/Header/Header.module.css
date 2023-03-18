@@ -5,3 +5,12 @@
 
   line-height: 0.5;
 }
+
+@media (max-width: 690px) {
+  .mainheadercontainer {
+    flex-direction: column;
+    line-height: 1;
+    font-size: small;
+    margin-bottom: 0;
+  }
+}

@@ -136,3 +136,10 @@ body {
 .innercontent {
   display: flex;
 }
+
+@media (max-width: 690px) {
+  .innercontent {
+    flex-direction: column;
+    display: block;
+  }
+}
