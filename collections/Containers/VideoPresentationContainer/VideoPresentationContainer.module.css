@@ -1,6 +1,6 @@
 .mainvideocontainer {
   flex-basis: 80%;
-  background-image: url("../../resources/images/video.png");
+  background-image: url("../../../resources/images/video.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

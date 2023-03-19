@@ -1,13 +1,12 @@
-import { List } from "@/components/Containers/List";
-import Header from "@/components/Header/Header";
-import VideoPresentationContainer from "@/components/Containers/VideoPresentationContainer";
+import { List, VideoPresentationContainer } from "../collections/index";
+import {Header} from "../components/index"
 export default function Home() {
   return (
     <div className="main">
       <Header />
       <div className="innercontent">
-      <VideoPresentationContainer />
-      <List />
+        <VideoPresentationContainer />
+        <List />
       </div>
     </div>
   );
